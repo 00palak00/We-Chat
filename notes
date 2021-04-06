@@ -1,0 +1,36 @@
+web sockets => they solve the problem of http response
+http requests are one way connection server cannot tell 
+client to take requests only client can send server requests
+
+hhtp long polling(google about it)
+
+web socket ensure a two way connection between client and server
+whenever either client or server have any request they send to each
+other
+
+just like http and https
+there is ws and wss(secured one)
+
+socket.io is a javaScript library for real time applications
+it is a library that enables real time, bidirectional and event-
+based communication between browser and server.
+it consist of a nodejs server and 
+a javascript library for the browser(which can also be run from nodejs)
+
+event based =>there are events in nodejs. when ever we click on something
+on a website we fire an event and inbrowser javaScript can listen to that event
+
+server can emmit an event and client can listen to it and take action and vice versa
+
+when ever a user1 build connection with socket.io then socket.io will emmit
+event to all other users that user1 has joined chat
+
+in http request we have to send requests to server(by refreshing page again and again) 
+and ask if there is some update or not but in sockets.io it will itself send you the 
+request when there is an update
+
+there will be two servers 1st node server and 2nd a independent website that
+will connect to the nodejs
+
+scripts will get download in background and will run
+once DOM is downloaded
